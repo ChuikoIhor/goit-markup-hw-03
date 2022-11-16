@@ -1,0 +1,37 @@
+/* main */
+.btn-secondary {
+    color: var(--primary-text-color);
+    background-color: #F5F4FA;
+
+    cursor: pointer;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    text-align: Center;
+    vertical-align: Top;
+    letter-spacing: 0.03em;
+}
+.btn-secondary:hover, .btn-secondary:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+.portfolio-title {
+    color: var(--primary-text-color);
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    text-align: Left;
+    vertical-align: Top;
+    letter-spacing: 0.06em;
+}
+.portfolio-text {
+    color: var(--p-text-color);
+
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: Left;
+    vertical-align: Top;
+    letter-spacing: 0.03em;
+}
