@@ -105,12 +105,35 @@
 .our-team {
   background-color: #f5f4fa;
   font-weight: 700;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
+
+.flex-element {
+  margin-right: 30px;
+  width: 270px;
+  border-radius: 0px 0px 4px 4px;
+  background-color: var(--primary-white-color);
+}
+
+.flex-element:last-child {
+  margin-right: 0px;
+}
+
+.our-team-list {
+  display: flex;
+}
+
 .our-team-title {
   margin-top: 0;
   margin-bottom: 50px;
   text-align: center;
 }
+
+.our-team-img {
+  margin-bottom: 30px;
+}
+
 .our-team-sub-title {
   font-size: 16px;
   font-weight: 500;
@@ -118,6 +141,7 @@
   text-align: Center;
   vertical-align: Top;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 .our-team-text {
   color: var(--p-text-color);
@@ -127,4 +151,5 @@
   text-align: Center;
   vertical-align: Top;
   letter-spacing: 0.03em;
+  padding-bottom: 30px;
 }

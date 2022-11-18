@@ -46,6 +46,10 @@ img {
   display: flex;
   align-items: center;
 }
+
+.header {
+  border-bottom: 1px solid #ececec;
+}
 .nav-header {
   display: flex;
 }
@@ -131,7 +135,7 @@ img {
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
-  padding-bottom: 57px;
+  padding-bottom: 60px;
 }
 
 .footer .logo {
