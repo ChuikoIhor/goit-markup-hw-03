@@ -51,6 +51,7 @@ img {
 }
 .nav-header {
   display: flex;
+  align-items: center;
 }
 .logo {
   display: inline-block;
@@ -62,10 +63,6 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
-}
-.logo-header {
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 
 .accentlogo {
