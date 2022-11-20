@@ -45,7 +45,6 @@
 
 .portfolio-item {
   width: 370px;
-  border: 1px solid #eeeeee;
 }
 
 .portfolio-list {
@@ -53,13 +52,13 @@
   flex-wrap: wrap;
   gap: 30px;
 }
-.portfolio-img {
-  margin-bottom: 20px;
-}
-
 .portfolio-title-text {
+  padding-top: 20px;
   padding-left: 24px;
+  padding-right: 24px;
   padding-bottom: 20px;
+  border: 1px solid #eeeeee;
+  border-top: 0px;
 }
 
 .portfolio-sub-title {
