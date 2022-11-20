@@ -113,7 +113,7 @@
 
 /* our-team */
 
-.flex-element {
+.our-team-item {
   margin-right: 30px;
   width: 270px;
   border-radius: 0px 0px 4px 4px;
@@ -122,7 +122,7 @@
   background-color: var(--primary-white-color);
 }
 
-.flex-element:last-child {
+.our-team-item:last-child {
   margin-right: 0px;
 }
 
@@ -135,6 +135,7 @@
   margin-bottom: 50px;
   text-align: center;
   font-weight: 700;
+  font-size: 36px;
 }
 
 .our-team-title-text {
